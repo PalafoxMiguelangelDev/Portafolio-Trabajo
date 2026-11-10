@@ -1,0 +1,43 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261110082532
+Username: MIGUELPALAFOX\HP
+RunAs User: MIGUELPALAFOX\HP
+Configuration Name: 
+Machine: MIGUELPALAFOX (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell -Command $env:TEMP = $env:_TEMP; $env:TMP = $env:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; Get-ChildItem -Path "c:\Users\HP\Desktop\Portafolio-Palafox" -Force | Select-Object Name, Attributes
+Process ID: 13192
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>$env:TEMP = $env:_TEMP; $env:TMP = $env:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; Get-ChildItem -Path "c:\Users\HP\Desktop\Portafolio-Palafox" -Force | Select-Object Name, Attributes
+
+Name                     Attributes
+----                     ----------
+.git              Hidden, Directory
+20261110                  Directory
+dist                      Directory
+node_modules              Directory
+public                    Directory
+src                       Directory
+.gitignore                  Archive
+eslint.config.js            Archive
+index.html                  Archive
+package-lock.json           Archive
+package.json                Archive
+README.md                   Archive
+vite.config.js              Archive
+
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20261110082532
+**********************

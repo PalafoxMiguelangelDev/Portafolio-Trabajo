@@ -1,0 +1,78 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261110083015
+Username: MIGUELPALAFOX\HP
+RunAs User: MIGUELPALAFOX\HP
+Configuration Name: 
+Machine: MIGUELPALAFOX (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell -Command $env:TEMP = $env:_TEMP; $env:TMP = $env:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; Set-Location "c:\Users\HP\Desktop\Portafolio-Palafox"; git remote set-url origin https://github.com/PalafoxMiguelangelDev/Portafolio-Trabajo.git
+Process ID: 17220
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>$env:TEMP = $env:_TEMP; $env:TMP = $env:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; Set-Location "c:\Users\HP\Desktop\Portafolio-Palafox"; git remote set-url origin https://github.com/PalafoxMiguelangelDev/Portafolio-Trabajo.git
+PS>TerminatingError(): "Program 'git.exe' failed to run: Win32 internal error "Access is denied" 0x5 occurred while reading the console output buffer. Contact Microsoft Customer Support Services.At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~."
+**********************
+Windows PowerShell transcript start
+Start time: 20261110083016
+Username: MIGUELPALAFOX\HP
+RunAs User: MIGUELPALAFOX\HP
+Configuration Name: 
+Machine: MIGUELPALAFOX (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell -Command $env:TEMP = $env:_TEMP; $env:TMP = $env:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; Set-Location "c:\Users\HP\Desktop\Portafolio-Palafox"; git remote set-url origin https://github.com/PalafoxMiguelangelDev/Portafolio-Trabajo.git
+Process ID: 17220
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Program 'git.exe' failed to run: Win32 internal error "Access is denied" 0x5 occurred while reading the console output buffer. Contact Microsoft Customer Support Services.At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~."
+Program 'git.exe' failed to run: Win32 internal error "Access is denied" 0x5 occurred while reading the console output 
+buffer. Contact Microsoft Customer Support Services.At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+Program 'git.exe' failed to run: Win32 internal error "Access is denied" 0x5 occurred while reading the console output 
+buffer. Contact Microsoft Customer Support Services.At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+Program 'git.exe' failed to run: Win32 internal error "Access is denied" 0x5 occurred while reading the console output
+buffer. Contact Microsoft Customer Support Services.At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:142
++ ... o-Palafox"; git remote set-url origin https://github.com/PalafoxMigue ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+
+PS>$global:?
+False
+**********************
+Windows PowerShell transcript end
+End time: 20261110083016
+**********************
